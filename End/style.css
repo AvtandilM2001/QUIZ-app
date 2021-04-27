@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #152D32;
+}
+
+body .head {
+  position: absolute;
+  width: 100%;
+  height: 23%;
+  background-color: #2a695e;
+  -webkit-box-shadow: 0px 0.5px 6px;
+          box-shadow: 0px 0.5px 6px;
+}
+
+body .resultBox {
+  position: absolute;
+  width: 50%;
+  background-color: #383e4e;
+  height: 400px;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 0;
+  border-radius: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .resultBox .score {
+  width: 100%;
+  height: auto;
+}
+
+body .resultBox .score p {
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+
+body .resultBox .score #scores {
+  font-size: 80px;
+  color: white;
+}
+
+body .resultBox .tryAgainbutt {
+  width: 100%;
+  height: auto;
+}
+
+body .resultBox .tryAgainbutt form {
+  width: 100%;
+  height: auto;
+}
+
+body .resultBox .tryAgainbutt form input {
+  width: 40%;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  outline: none;
+}
+
+@media only screen and (max-width: 640px) {
+  body .resultBox {
+    width: 90%;
+    top: 15%;
+  }
+  body .resultBox .tryAgainbutt form input {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

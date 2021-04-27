@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+        <div class="head"></div>
+        <div class="type">
+            <div class="question">
+                <p class="question" id="ko">Choose category and difficulty of questions</p>
+            </div>
+            <div class="categories">
+                <form action="../Tests/index.html">
+                    <select name="categoryOp" id="categ">
+                        <option value="Any_Category">Any Category</option>
+                        <option value="General_Knowledge">General Knowledge</option>
+                        <option value="Entertainment_Books">Entertainment: Books</option>
+                        <option value="Entertainment_Film">Entertainment: Film</option>
+                        <option value="Entertainment_Music">Entertainment: Music</option>
+                        <option value="Entertainment_Musicals_Theatres">Entertainment: Musicals & Theatres</option>
+                        <option value="Entertainment_Television">Entertainment: Television</option>
+                        <option value="Entertainment_Vdieo_Games">Entertainment: Vdieo Games</option>
+                        <option value="Entertainment_Board_Games">Entertainment: Board Games</option>
+                        <option value="Science_nature">Science: & nature</option>
+                        <option value="Science_Computers">Science: Computers</option>
+                        <option value="Science_Mathematics">Science: Mathematics</option>
+                        <option value="Mythology">Mythology</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Geography">Geography</option>
+                        <option value="History">History</option>
+                        <option value="Politics">Politics</option>
+                        <option value="Arts">Arts</option>
+                        <option value="Celebrities">Celebrities</option>
+                        <option value="Animals">Animals</option>
+                        <option value="Vehicles">Vehicles</option>
+                        <option value="Entertainment_Comics">Entertainment: Comics</option>
+                        <option value="Science_Gadgets">Science: Gadgets</option>
+                        <option value="Entertainment_Japanse_Anime_Manga">Entertainment: Japanse Anime & Manga</option>
+                        <option value="Entertainment_Cartoon_Animations">Entertainment: Cartoon & Animations</option>
+                    </select>
+                    <select name="difficulty" id="diffic">
+                        <option value='Any_Difficulty'>Any Difficulty</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medum</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                    <input type="submit" onclick="testMode()">
+                </form>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+</body>
+</html>

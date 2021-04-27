@@ -1,0 +1,24 @@
+body{
+    background-color: #152D32;
+    align-items: center;
+    .container{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 40%;
+        width: 60%;
+        height: auto;
+        background-color: white;
+        align-items: center;
+        form{
+            input{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 100px;
+                height: 40px;
+            }
+        }
+    }
+   
+}
